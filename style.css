@@ -1,0 +1,64 @@
+
+
+body {
+  font-family: 'Aeonik TRIAL';
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="number"] {
+  padding: 0.5em;
+  font-size: 1em;
+  width: 200px;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#guessButton {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#feedback {
+  margin-top: 1em;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.hidden {
+  display: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  border: none;
+  color: #f4f4f4;
+  cursor: pointer;
+  margin-left: 162px;
+}
